@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add"
+        app:showAsAction="always"
+        android:title="Add"
+        android:icon="@drawable/white_add_circle">
+    </item>
+    <item
+        android:id="@+id/add_question"
+        android:title="Fragen hinzufügen"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/hilfe"
+        android:title="Info/Hilfe/About"
+        app:showAsAction="never"></item>
+</menu>
